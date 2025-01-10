@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-let a = Number(fs.readFileSync(0).toString());
+let a = fs.readFileSync(0).toString();
 let arr = a.split(" ");
 
-console.log(arr[0] * arr[1])
+console.log(Number(arr[0]) * Number(arr[1]));
