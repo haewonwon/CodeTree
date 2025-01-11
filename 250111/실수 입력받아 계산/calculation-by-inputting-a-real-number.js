@@ -4,6 +4,6 @@ let input = fs.readFileSync(0).toString().split("\n");
 
 let a = input[0];
 let b = input[1];
-let sum = (a + b).toFixed(2)
+let sum = a + b
 
-console.log(sum)
+console.log(sum.toFixed(2))
