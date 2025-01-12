@@ -8,8 +8,8 @@ let b = Number(arr[1]);
 let c = Number(arr[2]);
 
 let sum = a + b + c;
-let avg = (sum / 3);
+let avg = (sum / 3).toString().trim();
 let result = avg.split(".");
 
 console.log(sum);
-console.log(result[0]);
+console.log(Number(result[0]));
