@@ -8,7 +8,7 @@ let b = Number(arr[1]);
 let c = Number(arr[2]);
 
 let sum = a + b + c;
-let avg = (sum / 3).toFixed(0)
+let avg = (sum / 3).toFixed(0);
 
 console.log(sum);
 console.log(avg);
