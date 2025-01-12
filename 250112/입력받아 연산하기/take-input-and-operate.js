@@ -9,5 +9,5 @@ let b = Number(arr[1]);
 a += 87 // 87 증가
 
 console.log(a);
-console.log(b % 20);
+console.log(b % 10);
 
