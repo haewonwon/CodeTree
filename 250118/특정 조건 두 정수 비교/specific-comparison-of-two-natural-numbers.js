@@ -6,16 +6,18 @@ let arr = input.split(" ");
 let a = Number(arr[0]);
 let b = Number(arr[1]);
 
-let result = "0"
+let resultA, resultB
 
 if (a < b) {
-    result = "1";
+    resultA = 1;
 } else {
-    result = "0";
+    resultA = 0;
 }
 
 if (a == b) {
-    console.log(result, "1")
+    resultB = 1;
 } else {
-    console.log(result, "0")
+    resultB = 0;
 }
+
+console.log(resultA, resultB);
