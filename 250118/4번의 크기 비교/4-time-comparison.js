@@ -8,8 +8,8 @@ let arr2 = arr[1].split(" ")
 let a = Number(arr[0]);
 let b = Number(arr2[0]);
 let c = Number(arr2[1]);
-let d = Number(arr[2]);
-let e = Number(arr[3]);
+let d = Number(arr2[2]);
+let e = Number(arr2[3]);
 
 if (a > b) {
     console.log("1")
