@@ -7,19 +7,9 @@ let a = Number(arr[0]);
 let b = Number(arr[1]);
 let c = Number(arr[2]);
 
-let min;
-
-if (a >= b) {
-    min = b;
-} else if (b >= c) {
-    min = c;
-} else {
-    min = a;
-}
-
 let resultA, resultB;
 
-if (a == min) {
+if (a <= b && a <= c) {
     resultA = "1"
 } else {
     resultA = "0"
