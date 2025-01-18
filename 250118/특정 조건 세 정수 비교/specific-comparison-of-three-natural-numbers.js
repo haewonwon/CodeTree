@@ -9,9 +9,9 @@ let c = Number(arr[2]);
 
 let min;
 
-if (a > b) {
+if (a >= b) {
     min = b;
-} else if (b > c) {
+} else if (b >= c) {
     min = c;
 } else {
     min = a;
