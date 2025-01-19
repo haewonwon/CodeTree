@@ -7,7 +7,7 @@ let a = Number(arr[0]);
 let b = Number(arr[1]);
 let c = Number(arr[2]);
 
-let min;
+// let min;
 
 let min = (a <= b && a <= c) ? a : (b <= a && b <= c) ? b : c;
 
