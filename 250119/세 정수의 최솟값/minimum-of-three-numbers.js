@@ -9,8 +9,15 @@ let c = Number(arr[2]);
 
 let min;
 
-a >= b ? min = b : min = a;
-a >= c ? min = c : min = a;
-b >= c ? min = c : min = b;
+if (b >= a && c >= a) {
+    min = a
+} else if (a >= b && c >= b) {
+    min = b
+} else {
+    min = c
+}
+// a >= b ? min = b : min = a;
+// a >= c ? min = c : min = a;
+// b >= c ? min = c : min = b;
 
 console.log(min);
