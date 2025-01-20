@@ -10,7 +10,7 @@ let sex_1 = arr_1[1];
 let age_2 = Number(arr_2[0]);
 let sex_2 = arr_2[1];
 
-if (age_1 >= 19 && sex_1 == "M" || age_2 >= 19 && sex_2 == "M") {
+if ((age_1 >= 19 && sex_1 == "M") || (age_2 >= 19 && sex_2 == "M")) {
     console.log("1")
 } else {
     console.log("0")
