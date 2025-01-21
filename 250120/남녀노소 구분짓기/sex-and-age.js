@@ -9,11 +9,11 @@ if (sex == 0) {
     if (age >= 19) {
         console.log("MAN")
     } else {
-        console.log("WOMAN")
+        console.log("BOY")
     }
 } else {
     if (age >= 19) {
-        console.log("BOY")
+        console.log("WOMAN")
     } else {
         console.log("GIRL")
     }
