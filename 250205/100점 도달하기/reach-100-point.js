@@ -9,7 +9,7 @@ for (let i = n; i < 101; i++) {
         result += ("B" + " ")
     } else if (i >= 70) {
         result += ("C" + " ")
-    } else if (n >= 60) {
+    } else if (i >= 60) {
         result += ("D" + " ")
     } else {
         result += ("F" + " ")
