@@ -5,16 +5,28 @@ let b = Number(arr[1]);
 
 let result = "";
 
-for (let i = a; i <= b; ) {
-    result += (i + " ")
+// 내 답변
+// for (let i = a; i <= b; ) {
+//     result += (i + " ")
 
-    if (i % 2 === 1) {
-        i *= 2
-    } else {
-        i += 3
+//     if (i % 2 === 1) {
+//         i *= 2
+//     } else {
+//         i += 3
+//     }
+
+//     if (i > b) break;  
+// }
+
+// 해설
+while (a <= b) {
+    result += a + " ";
+    if (a % 2 === 1) {
+        a *= 2;
     }
-
-    if (i > b) break;  
+    else {
+        a += 3;
+    }
 }
 
 console.log(result)
