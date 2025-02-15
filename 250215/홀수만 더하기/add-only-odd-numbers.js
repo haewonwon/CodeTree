@@ -4,7 +4,7 @@ let n = arr[0];
 
 let sumVal = 0;
 
-for (let i = 0; i <= n; i++) {
+for (let i = 1; i <= n; i++) {
     if (arr[i] % 2 !== 0 && arr[i] % 3 === 0) {
         sumVal += arr[i]
     }
