@@ -5,18 +5,23 @@ let cnt = 0;
 
 for (let i = 1; i<= n; i++) {
 
-    cnt ++;
+    // cnt ++;
 
-    if (i % 2 === 0) {
-        cnt --;
-        continue;
-    } else if (i % 3 === 0) {
-        cnt --;
-        continue;
-    } else if (i % 5 === 0) {
-        cnt --;
+    // if (i % 2 === 0) {
+    //     cnt --;
+    //     continue;
+    // } else if (i % 3 === 0) {
+    //     cnt --;
+    //     continue;
+    // } else if (i % 5 === 0) {
+    //     cnt --;
+    //     continue;
+    // }
+
+    if (i % 2 === 0 || i % 3 === 0 || i % 5 === 0) {
         continue;
     }
+    cnt++;
 }
 
 console.log(cnt);
