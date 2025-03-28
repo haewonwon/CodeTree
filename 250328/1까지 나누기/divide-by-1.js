@@ -5,7 +5,7 @@ let number = n;
 let cnt = 0; // 나눗셈을 진행한 횟수
 
 for (let i = 1; i <= number; i++) {
-    n = n / i
+    n = parseInt(n / i)
     cnt ++;
 
     if (n <= 1) {
