@@ -4,7 +4,7 @@ let input = fs.readFileSync(0).toString().trim().split("\n");
 let i = 0;
 
 while (true) {
-    let n = input[i]
+    let n = Number(input[i])
     i++
 
     if (n < 25) {
