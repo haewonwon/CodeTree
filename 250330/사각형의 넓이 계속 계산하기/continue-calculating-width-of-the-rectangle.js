@@ -1,14 +1,11 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString().trim().split("\n");
+let input = fs.readFileSync(0).toString().trim().split(/\s+/);
 let i = 0;
 
-while (i < input.length) {
-    let width = Number(input[i]);
-    i++;
-    let height = Number(input[i]);
-    i++;
-    let eng = input[i];
-    i++;
+while (true) {
+    let width = Number(input[i++]);
+    let height = Number(input[i++]);
+    let eng = input[i++];
 
     console.log(width * height);
 
