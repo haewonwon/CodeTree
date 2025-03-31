@@ -7,10 +7,8 @@ let sum = 0;
 while (true) {
     let n = Number(input[i]);
 
-    if (n < 30) {
-        sum += n;
-        i++;
-    }
+    sum += n;
+    i++;
 
     if (n >= 30) {
         break;
