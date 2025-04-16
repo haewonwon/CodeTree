@@ -9,7 +9,7 @@ let str = "";
 for (let i = 0; i < n; i++) {
     str = "";
 
-    for (let i = 0; i < m; i ++) {
+    for (let j = 0; j < m; j ++) {
         str += "*" + " ";
     }
 
