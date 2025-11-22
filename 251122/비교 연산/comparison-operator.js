@@ -4,27 +4,9 @@ let arr = fs.readFileSync(0).toString().trim().split(" ");
 let a = Number(arr[0]);
 let b = Number(arr[1]);
 
-if (a >= b) {
-    console.log("1")
-} else console.log("0")
-
-
-if (a > b) {
-    console.log("1")
-} else console.log("0")
-
-if (b >= a) {
-    console.log("1")
-} else console.log("0")
-
-if (b > a) {
-    console.log("1")
-} else console.log("0")
-
-if (a === b) {
-    console.log("1")
-} else console.log("0")
-
-if (a !== b) {
-    console.log("1")
-} else console.log("0")
+console.log(a >= b? 1 : 0)
+console.log(a > b? 1 : 0)
+console.log(b >= a? 1 : 0)
+console.log(b > a? 1 : 0)
+console.log(a === b? 1 : 0)
+console.log(a !== b? 1 : 0)
